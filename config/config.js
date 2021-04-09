@@ -9,8 +9,8 @@ config.database = {
 };
 
 config.keys = {
-  accessSecret: 'dev-jwt',
-  refreshSecret: 'very-secret-key',
+  accessSecret: 'accessSecret',
+  refreshSecret: 'refreshSecret',
 };
 
 module.exports = config;
